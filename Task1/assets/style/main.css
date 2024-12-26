@@ -1,0 +1,107 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255,255,255);
+  background: linear-gradient(45deg, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 66%, rgba(52,64,174,1) 100%);  font-family: Arial, sans-serif;
+  color: #000;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  min-width: 100vb;
+  /* max-width: 100vb; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: Poppins
+  ;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-family: Inter;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.welcome {
+  color: #ED6F9C;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.description {
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: Inter;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  
+  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #3440AE;
+  color: #fff;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  color: #3440AE;
+  border: 1px solid #3440AE;
+}
+
+.rocket img {
+  width: 300px;
+}
